@@ -2,7 +2,6 @@ const Evernote = require('evernote').Evernote
 const promisify = require('es6-promisify')
 
 function copyTemplate(evernoteToken, noteGuid, toNotebookGuid) {
-	console.log(evernoteToken, noteGuid, toNotebookGuid)
 	if (!evernoteToken || !noteGuid || !toNotebookGuid) {
 		throw new Error('missing one of the arguments')
 	}
