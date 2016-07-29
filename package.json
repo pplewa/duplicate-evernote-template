@@ -7,7 +7,11 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pplewa/duplicate-evernote-template.git"
+  },
+  "author": "pplewa",
   "license": "ISC",
   "dependencies": {
     "es6-promisify": "^4.1.0",
